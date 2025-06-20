@@ -12,3 +12,4 @@ C:\Users\Pichau\OneDrive\Área de Trabalho\menuInterativo\obj\Debug\net9.0\refin
 C:\Users\Pichau\OneDrive\Área de Trabalho\menuInterativo\obj\Debug\net9.0\menuInterativo.pdb
 C:\Users\Pichau\OneDrive\Área de Trabalho\menuInterativo\obj\Debug\net9.0\menuInterativo.genruntimeconfig.cache
 C:\Users\Pichau\OneDrive\Área de Trabalho\menuInterativo\obj\Debug\net9.0\ref\menuInterativo.dll
+C:\Users\Pichau\OneDrive\Área de Trabalho\menuInterativo\obj\Debug\net9.0\menuInterativo.sourcelink.json
