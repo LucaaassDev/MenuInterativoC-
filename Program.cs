@@ -1,5 +1,8 @@
 ﻿using System;
+using Projetos;
 using Exercicios;
+
+
 
 namespace Menu
 {
@@ -8,7 +11,7 @@ namespace Menu
         static void Main(string[] args)
         {
             Console.Clear();
-            menuInterativo menu = new menuInterativo();
+            menuProjects menuInterativo = new menuProjects();
 
             Console.WriteLine("===================================");
             Console.WriteLine("===================================");
@@ -27,32 +30,26 @@ namespace Menu
                         Console.WriteLine("===================================");
                         Console.WriteLine("        Calculador de Média        ");
                         Console.WriteLine("===================================");
-                        menu.aprovadoReprovado();
+                        menuInterativo.aprovadoReprovado();
                         break;
                     case 2:
                         Console.WriteLine("===================================");
                         Console.WriteLine("            Par ou Impar           ");
                         Console.WriteLine("===================================");
-                        menu.parImpar();
+                        menuInterativo.parImpar();
                         break;
                     case 3:
                         Console.WriteLine("===================================");
                         Console.WriteLine("   Calculadora utilizando Switch   ");
                         Console.WriteLine("===================================");
-                        menu.calculadoraSwitch();
+                        menuInterativo.calculadoraSwitch();
                         break;
                     case 4:
                         Console.WriteLine("===================================");
                         Console.WriteLine("      Classificador de Idade       ");
                         Console.WriteLine("===================================");
-                        menu.classificadorIdade();
+                        menuInterativo.classificadorIdade();
                         break;
-
-
-
-
-
-
                 }
             }
             else
@@ -60,12 +57,9 @@ namespace Menu
                 Console.WriteLine("Valor inválido");
             }
 
-
-
-
-
-
+            Exercicio Training = new Exercicio();
 
         }
+        
     }
 }
